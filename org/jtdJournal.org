@@ -892,3 +892,103 @@ from the bottom up, but continously review goals and projects and work from ther
 Entered on [2016-04-02 Sat 08:20]
   
   [[file:c:/Users/Ray/Desktop/practice.org::*GTD%20Revisit%20Cyborganized%20Video%20and%20other%20stuff%20(Execution%20Loop)][GTD Revisit Cyborganized Video and other stuff (Execution Loop)]]
+**** Journal is now backed-up on bitbucket will do same with other "private sources"
+Entered on [2016-04-02 Sat 11:43]
+  
+  [[file:c:/Users/Ray/Desktop/practice.org::*GTD%20Revisit%20Cyborganized%20Video%20and%20other%20stuff%20(Execution%20Loop)][GTD Revisit Cyborganized Video and other stuff (Execution Loop)]]
+**** Virtually most of the day working on a "birthday".
+Entered on [2016-04-02 Sat 21:59]
+  
+  [[file:c:/Users/Ray/Desktop/practice.org::*Birthdays%20Help%20Joan][Birthdays Help Joan]]
+*** 2016-04-03 Sunday
+**** Started off this morning with a bang. In addition to applying for benefits, my Work Search log. We dropped off Alyssa at work, went shopping
+for the party, got beer, moved the cars, took the dog out, showed email from Raymond etc..
+Entered on [2016-04-03 Sun 10:43]
+  
+  [[file:c:/Users/Ray/Desktop/practice.org::*Joan%20Time][Joan Time]]
+**** Another example of a day focused on "other" priorities.
+Entered on [2016-04-03 Sun 21:17]
+  
+  [[file:c:/Users/Ray/Desktop/practice.org::*Time%20Management][Time Management]]
+**** Total disassemby of workstation for party.
+Entered on [2016-04-03 Sun 21:19]
+  
+  [[file:c:/Users/Ray/Desktop/practice.org::*Routine%20System%20Operation%20to%20Optimize%20systems][Routine System Operation to Optimize systems]]
+**** Paid WCU credit card.
+Entered on [2016-04-03 Sun 21:21]
+  
+  [[file:c:/Users/Ray/Desktop/practice.org::*Budgeting%20and%20Bills][Budgeting and Bills]]
+*** 2016-04-04 Monday
+**** Rebuilding work stations this morning.
+Entered on [2016-04-04 Mon 07:06]
+  
+  [[file:c:/Users/Ray/Desktop/practice.org::*System%20Administration%20and%20Personal%20Desktop%20Support][System Administration and Personal Desktop Support]]
+**** GTD Workflow sort process on paperwork
+Entered on [2016-04-04 Mon 07:41]
+  
+  [[file:c:/Users/Ray/Desktop/practice.org::*GTD%20Revisit%20Cyborganized%20Video%20and%20other%20stuff%20(Execution%20Loop)][GTD Revisit Cyborganized Video and other stuff (Execution Loop)]]
+**** Learned and reviewed sort command. It can be piped (very powerful).
+Entered on [2016-04-04 Mon 07:52]
+  
+  [[file:c:/Users/Ray/Desktop/practice.org::*System%20Administration%20and%20Personal%20Desktop%20Support][System Administration and Personal Desktop Support]]
+**** Reviewed Mar Firefox Browser History.
+Entered on [2016-04-04 Mon 08:19]
+  
+  [[file:c:/Users/Ray/Desktop/practice.org::*GTD%20Revisit%20Cyborganized%20Video%20and%20other%20stuff%20(Execution%20Loop)][GTD Revisit Cyborganized Video and other stuff (Execution Loop)]]
+**** Finished application process for Monster SQL Admin job prepping for about a week, but worked straight on cover letter submission since
+8 AM this morning.
+Entered on [2016-04-04 Mon 12:54]
+  
+  [[file:~/org/opportunities.org::*%20OPPORTUNITY:%20SQL%20Server%20Database%20Administrator][<2016-04-04 Mon 08:17> OPPORTUNITY: SQL Server Database Administrator]]
+**** Tried some job follow up on Snagajob (Aerotek and Autozone)
+Entered on [2016-04-04 Mon 13:38]
+  
+  [[file:c:/Users/Ray/Desktop/practice.org::*Visit%20ETRR%20Website%20and%20Opportunity%20Activities%20<<Opportunity-activities>>%20%5B%5BInternet-Marketing%5D%5D][Visit ETRR Website and Opportunity Activities <<Opportunity-activities>>  {{Internet-Marketing}}]]
+**** Research on Software Design patterns see Firefox bookmarks and history.
+Entered on [2016-04-04 Mon 21:25]
+  
+  [[file:c:/Users/Ray/Desktop/practice.org::*Freelance%20Research][Freelance Research]]
+**** Reviewing and developing direction for JRuby learnings.
+Entered on [2016-04-04 Mon 21:27]
+  
+  [[file:c:/Users/Ray/Desktop/practice.org::*Jruby%20Tutorial][Jruby Tutorial]]
+**** Discovered (2) opportunties today will need to document in AM did some prelim research on Glassdoor (St. Mary's Credit Union and XOriant)
+Entered on [2016-04-04 Mon 21:36]
+  
+  [[file:c:/Users/Ray/Desktop/practice.org::*Visit%20ETRR%20Website%20and%20Opportunity%20Activities%20<<Opportunity-activities>>%20%5B%5BInternet-Marketing%5D%5D][Visit ETRR Website and Opportunity Activities <<Opportunity-activities>>  {{Internet-Marketing}}]]
+*** 2016-04-05 Tuesday
+**** Classic GTD sort went thru April folder.
+Entered on [2016-04-05 Tue 07:17]
+  
+  [[file:c:/Users/Ray/Desktop/practice.org::*GTD%20Revisit%20Cyborganized%20Video%20and%20other%20stuff%20(Execution%20Loop)][GTD Revisit Cyborganized Video and other stuff (Execution Loop)]]
+**** System was restarted from off position seems to behave better
+Entered on [2016-04-05 Tue 07:24]
+  
+  [[file:c:/Users/Ray/Desktop/practice.org::*Routine%20System%20Operation%20to%20Optimize%20systems][Routine System Operation to Optimize systems]]
+**** Completed a cover letter that I could not send, but sent resume instead (I think) as it turns out. It is not as close as I thought. (In New Hampshire)
+Entered on [2016-04-05 Tue 09:27]
+  
+  [[file:~/org/opportunities.org::*%5B#C%5D%20OPPORTUNITY:%20Senior%20Systems%20Administrator][<2016-04-05 Tue 07:37> OPPORTUNITY: Senior Systems Administrator]]
+**** Already have worked on (2) opportunities since before 7 AM this morning.
+Entered on [2016-04-05 Tue 10:03]
+  
+  [[file:~/org/opportunities.org::*%5B#A%5D%20OPPORTUNITY:%20Real%20Estate%20Sales%20Agent%20Position][<2016-04-05 Tue 09:50> OPPORTUNITY:  Real Estate Sales Agent Position]]
+**** Some research on virtual jobs (see flexjobs)
+Entered on [2016-04-05 Tue 13:11]
+  
+  [[file:c:/Users/Ray/Desktop/practice.org::*Visit%20ETRR%20Website%20and%20Opportunity%20Activities%20<<Opportunity-activities>>%20%5B%5BInternet-Marketing%5D%5D][Visit ETRR Website and Opportunity Activities <<Opportunity-activities>>  {{Internet-Marketing}}]]
+**** Counted a total of 6 emails and possibly 2 calls from headhunters today. This indicates principles of internet marketing are in play. Might have to consider dividing day into (2) parts. Early morning 1st of day for follow-up on opportunities and then last half of day on training, research and interview preparation.
+Entered on [2016-04-05 Tue 19:59]
+  
+  [[file:c:/Users/Ray/Desktop/practice.org::*Visit%20ETRR%20Website%20and%20Opportunity%20Activities%20<<Opportunity-activities>>%20%5B%5BInternet-Marketing%5D%5D][Visit ETRR Website and Opportunity Activities <<Opportunity-activities>>  {{Internet-Marketing}}]]
+**** Research on Virtual Assistant, Flex jobs, Design Patterns, SQL Server (have started SQL Server Mgmt studio and connected to SQLExpress
+instance) SQL/XML and XML/XSLT editing. Considering XML/XSLT as a code or even "anything generator". Potentially upgrading to "pro", explored
+possibility of installing Windows server for learning AD and explored virtual labs. I have Virtual Box installed too.
+Entered on [2016-04-05 Tue 20:06]
+  
+  [[file:c:/Users/Ray/Desktop/practice.org::*Freelance%20Research][Freelance Research]]
+*** 2016-04-06 Wednesday
+**** After re-initializing practice.org and uploading current copy to github. Discovered (2) more job leads.
+Entered on [2016-04-06 Wed 03:09]
+  
+  [[file:c:/Users/Ray/Desktop/practice.org::*Visit%20ETRR%20Website%20and%20Opportunity%20Activities%20<<Opportunity-activities>>%20%5B%5BInternet-Marketing%5D%5D][Visit ETRR Website and Opportunity Activities <<Opportunity-activities>>  {{Internet-Marketing}}]]
