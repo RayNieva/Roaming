@@ -10,6 +10,7 @@
 
 (require 'outlookedit)
 (require 'org-outlook)
+(require 'w32-browser)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -28,7 +29,8 @@
  '(noprint-hide-print-in-menus t)
  '(noprint-hide-ps-print-in-menus t)
  '(nxhtml-load t)
- '(org-agenda-files (quote ("c:/Users/Ray/Documents/practice.org")))
+ '(org-agenda-files (quote ("~/org/opportunities.org" "c:/Users/Ray/Desktop/scratch23.org" "c:/Users/Ray/Desktop/practice.org" "c:/Users/Ray/Documents/practice.org")))
+ '(org-babel-load-languages (quote ((ruby . t) (emacs-lisp . t))))
  '(org-capture-templates (quote (("t" "Todo" entry (file+headline "~/org/gtdActionables.org" "Tasks") "* TODO %?
   %i
   %a") ("j" "Journal" entry (file+datetree "~/org/jtdJournal.org") "* %?
