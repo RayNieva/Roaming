@@ -1,6 +1,8 @@
 (add-to-list 'load-path "C:/Users/Ray/Downloads/Emacs/ntemacs24/lisp/icicles")
-(add-to-list 'load-path "~/.emacs.d/plugins/yasnippet")
+;;(add-to-list 'load-path "~/.emacs.d/plugins/yasnippet")
+(add-to-list 'load-path "C:/Users/Ray/Appdata/Roaming/.emacs.d/plugins/yasnippet")
 (add-to-list 'load-path "~/.emacs.d/elpa/evil-20160214.1141")
+;;; (add-to-list 'load-path "~/bin/ruby-mode/ruby-mode"
 (require 'icicles)
 (require 'yasnippet)
 (require 'evil) 
@@ -70,3 +72,16 @@ Entered on %U
 
 (put 'dired-find-alternate-file 'disabled nil)
 (server-start)
+
+
+ (autoload 'inf-ruby "inf-ruby" "Run an inferior Ruby process" t)
+;;    (add-hook 'ruby-mode-hook 'inf-ruby-minor-mode)
+
+
+   (autoload 'ruby-mode "ruby-mode"
+      "Mode for editing ruby source files" t)
+    (setq auto-mode-alist
+          (append '(("\\.rb$" . ruby-mode)) auto-mode-alist))
+    (setq interpreter-mode-alist (append '(("ruby" . ruby-mode))
+                                  interpreter-mode-alist))
+
