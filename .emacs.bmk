@@ -2,8 +2,13 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("Opportunities.yaml"
- (filename . "~/org/opportunities.yaml")
+(("LinkedIn"
+ (filename . "c:/Users/Ray/Desktop/scratch22.org")
+ (front-context-string)
+ (rear-context-string . " Interests\n   - ")
+ (position . 242))
+("Opportunities.yaml"
+ (filename . "~/org/opportunities.yml")
  (front-context-string . "-\n   Date: <2016")
  (rear-context-string)
  (position . 1))
@@ -47,7 +52,7 @@
  (front-context-string . "support Hostgato")
  (rear-context-string)
  (position . 3))
-(" Support HostGator First Chat 2/04/16\n"
+("Support HostGator First Chat 2/04/16\n"
  (filename . "c:/Users/Ray/Desktop/scratch16.org")
  (front-context-string . " Support HostGat")
  (rear-context-string)
@@ -87,7 +92,7 @@
  (front-context-string . "Workflow\n\nToday ")
  (rear-context-string)
  (position . 3))
-(" Elevator Speech\n"
+("Elevator Speech\n"
  (filename . "c:/Users/Ray/Desktop/scratch4.org")
  (front-context-string . " Elevator Speech")
  (rear-context-string)
@@ -104,9 +109,9 @@
  (position . 2))
 ("org-capture-last-stored"
  (filename . "~/org/jtdJournal.org")
- (front-context-string . "**** Attended mo")
- (rear-context-string . "me][Joan Time]]\n")
- (position . 21220))
+ (front-context-string . "**** Used on ema")
+ (rear-context-string . "SLT][XML/XSLT]]\n")
+ (position . 90715))
 ("Downloads"
  (filename . "c:/Users/Ray/Downloads/")
  (front-context-string . "  c:/Users/Ray/D")
