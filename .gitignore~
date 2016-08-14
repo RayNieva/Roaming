@@ -1,0 +1,25 @@
+.emacs
+.emacs.bmk
+.emacs.d/
+.emacs~
+.minttyrc
+.recentf
+.recentf~
+.viminfo
+Adobe/**/*
+ATI/**/*
+'AVAST Software'/**/*
+Backup/**/*
+Hewlett-Packard/**/*
+HpUpdate/**/*
+library_dir/**/*
+Macromedia/**/*
+Microsoft/**/*
+'Microsoft Corporation'/**/*
+Mozilla/**/*
+NuGet/**/*
+PlaysTV/**/*
+Raptr/**/*
+TightVNC/**/*
+vimperator/**/*
+WinBatch/**/*
