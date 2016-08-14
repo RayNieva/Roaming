@@ -2,7 +2,17 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("LinkedIn"
+(("commands"
+ (filename . "c:/cygwin64/")
+ (front-context-string . ":\n  total used i")
+ (rear-context-string)
+ (position . 14))
+("GTD Actionables"
+ (filename . "~/org/gtdActionables.org")
+ (front-context-string . "* Tasks\n** DONE ")
+ (rear-context-string)
+ (position . 1))
+("LinkedIn"
  (filename . "c:/Users/Ray/Desktop/scratch22.org")
  (front-context-string)
  (rear-context-string . " Interests\n   - ")
@@ -109,9 +119,9 @@
  (position . 2))
 ("org-capture-last-stored"
  (filename . "~/org/jtdJournal.org")
- (front-context-string . "**** Used on ema")
- (rear-context-string . "SLT][XML/XSLT]]\n")
- (position . 90715))
+ (front-context-string . "**** Weirdness t")
+ (rear-context-string . "ther Computer]]\n")
+ (position . 285739))
 ("Downloads"
  (filename . "c:/Users/Ray/Downloads/")
  (front-context-string . "  c:/Users/Ray/D")

@@ -1,17 +1,20 @@
+(require 'package)
+  (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
+  (package-initialize)
 (add-to-list 'load-path "C:/Users/Ray/Downloads/Emacs/ntemacs24/lisp/icicles")
 ;;(add-to-list 'load-path "~/.emacs.d/plugins/yasnippet")
 (add-to-list 'load-path "C:/Users/Ray/Appdata/Roaming/.emacs.d/plugins/yasnippet")
 (add-to-list 'load-path "~/.emacs.d/elpa/evil-20160214.1141")
 ;;; (add-to-list 'load-path "~/bin/ruby-mode/ruby-mode"
-(require 'icicles)
+;;(require 'icicles)
 (require 'yasnippet)
 (require 'evil) 
+(require 'icicles)
 (yas-global-mode 1)
 (evil-mode 1)
-
-
-(require 'outlookedit)
-(require 'org-outlook)
+(icy-mode 1)
+;;(require 'outlookedit)
+;;(require 'org-outlook)
 (require 'w32-browser)
 
 (custom-set-variables
@@ -58,7 +61,7 @@ Entered on %U
  '(org-document-title ((t (:foreground "midnight blue" :weight bold :height 1.44))))
  '(org-level-1 ((t (:inherit outline-1 :weight bold :height 1.5 :width expanded)))))
 
-(setq org-default-notes-file (concat org-directory "/notes.org"))
+;;(setq org-default-notes-file (concat org-directory "/notes.org"))
      (define-key global-map "\C-cc" 'org-capture)
 
 (setq org-capture-templates
