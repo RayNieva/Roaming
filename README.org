@@ -1,0 +1,58 @@
+* What is AppData\Roaming?
+(setq truncate-lines 'nil)
+
+
+AppData is a folder in your Windows user account home folder, and Roaming is a folder within that. AppData\Roaming is where programs on your machine store data that is specific to your user account. The folder is normally hidden, and lives within your user account home folder. As an example, on one of my machines the full path would be:
+
+c:\Users\Ray\Appdata\Roaming
+
+Where ¡§Roaming¡¨ is a sub folder of ¡§AppData¡¨.
+
+AppData\Roaming
+
+Into that folder might be placed things like default templates, configuration files, and other support data that applications might use that a) might be different for other users of the machine, and b) aren¡¦t your actual working documents.
+
+Now, AppData makes sense ¡V it¡¦s where Applications place Data. But what¡¦s with the ¡§Roaming¡¨?
+
+* Roaming around with Windows
+
+AppData\Roaming is designed for use in what I¡¦ll call a corporate environment, though any widespread deployment of Windows in a large environment could be configured to make use of it.
+
+ 
+
+In these scenarios the idea is that your Windows account isn¡¦t an account on a specific machine, but rather an account in your company¡¦s overall IT infrastructure or ¡§Domain¡¨. In theory, then, you could log in to any machine connected to your corporate network on which you have permission with your single corporate Windows account.
+
+And when you did so, the data that applications had placed in AppData\Roaming would follow you to the machine you logged in on. It would ¡§roam¡¨ to whatever machine you happened to use.
+
+AppData\Roaming at home
+
+Outside of large Windows installations like I¡¦ve described, the concept of roaming simply isn¡¦t used that much. At home I¡¦d dare say it¡¦s not used at all.
+
+However the folder most certainly is. When programs ask Windows, ¡§Where should put my data?¡¨ Windows responds with ¡§Well, put it over in the current user¡¦s AppData\Roaming folder.¡¨
+
+At home and in most traditional small Windows installations the word ¡¥roaming¡¦ really means nothing to us. It¡¦s simply the folder in which applications can put data and nothing more.
+
+* With that in mind... a new HOME directory
+In Stock Emacs (not ergoemacs) and perhaps other applications this becomes the residing directory for .emacs and can be for other "dot" files like .git.
+
+* The mother of data and Roaming.. Appdata.
+The Application Data¡Xor AppData¡Xfolder contains data created by programs. Almost every program you install creates its own folder in AppData and stores information there. At least in theory, users don¡¦t have to worry about these files.
+
+But in reality, you probably do. For instance, my personalized Microsoft Word templates and Sticky Notes file all reside inside AppData. If you¡¦re using an older version of Outlook, that program¡¦s data is probably in AppData, as well.
+
+ [Have a tech question? Ask PCWorld Contributing Editor Lincoln Spector. Send your query to answer@pcworld.com.]
+
+Finding this folder isn¡¦t easy if you don¡¦t know the tricks. The AppData folder resides in your user folder¡Xthe same location that contains Documents, Music, and other library folders (unless you¡¦ve moved them elsewhere). But unlike those folders, AppData is hidden.
+
+Unless you¡¦ve told Windows to display hidden files and folders, you won¡¦t see it. And if you can¡¦t see it, you can¡¦t click it.
+
+But there¡¦s a trick that will get you into the folder. Click Start or go to the Windows 8 Search charm, type %appdata%, and select the Roaming file.
+
+Why Roaming? Because the %appdata% environment variable doesn¡¦t actually point to the AppData folder. It points to the Roaming folder inside AppData.
+
+This sort of makes sense. The Roaming folder contains the lion¡¦s share of all the files in AppData¡Xincluding the ones you¡¦re most likely to need access to.
+1020 appdata roaming
+
+And if you really want to get to the actual AppData folder, once you¡¦re in Roaming, click AppData in the Path field at the top of the window.
+
+Once there, you should have no trouble copying files¡Xor backing them up. However, I¡¦d be very cautious about moving or deleting them. Doing so might break a program.
