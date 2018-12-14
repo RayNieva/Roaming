@@ -1,21 +1,34 @@
 (require 'package)
-  (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
+ ;; (add-to-list 'package-archives '("melpa" . "https://stable.melpa.org/packages/"))
+    (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
   (package-initialize)
 (add-to-list 'load-path "C:/Users/Ray/Downloads/Emacs/ntemacs24/lisp/icicles")
 ;;(add-to-list 'load-path "~/.emacs.d/plugins/yasnippet")
-(add-to-list 'load-path "C:/Users/Ray/Appdata/Roaming/.emacs.d/plugins/yasnippet")
+;;(add-to-list 'load-path "C:/Users/Ray/Appdata/Roaming/.emacs.d/plugins/yasnippet")
 (add-to-list 'load-path "~/.emacs.d/elpa/evil-20160214.1141")
+(add-to-list 'load-path "C:/Users/Ray/Appdata/Roaming/.emacs.d/markdown")
+(add-to-list 'load-path "C:/Users/Ray/Appdata/Roaming/.emacs.d/powershell")
+(add-to-list 'load-path "C:/Users/Ray/Appdata/Roaming/.emacs.d/VB")
+;;(add-to-list 'load-path "
 ;;; (add-to-list 'load-path "~/bin/ruby-mode/ruby-mode"
 ;;(require 'icicles)
 (require 'yasnippet)
 (require 'evil) 
 (require 'icicles)
+(require 'powershell)
+(require 'dired+)
+(require 'bookmark+)
 (yas-global-mode 1)
 (evil-mode 1)
 (icy-mode 1)
+;;(powershell-mode 1)
 ;;(require 'outlookedit)
 ;;(require 'org-outlook)
 (require 'w32-browser)
+  (autoload 'visual-basic-mode "visual-basic-mode" "Visual Basic mode." t)
+  (setq auto-mode-alist (append '(("\\.\\(frm\\|bas\\|cls\\)$" .
+                                  visual-basic-mode)) auto-mode-alist))
+;;  (visual-basic-mode 1)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -24,6 +37,7 @@
  ;; If there is more than one, they won't work right.
  '(appmenu-mode t)
  '(auto-image-file-mode t)
+ '(bmkp-last-as-first-bookmark-file "c:\\Users\\Ray\\AppData\\Roaming\\.emacs.bmk")
  '(column-number-mode t)
  '(cua-mode t nil (cua-base))
  '(emacsw32-max-frames t)
@@ -34,16 +48,43 @@
  '(noprint-hide-print-in-menus t)
  '(noprint-hide-ps-print-in-menus t)
  '(nxhtml-load t)
- '(org-agenda-files (quote ("~/org/opportunities.org" "c:/Users/Ray/Desktop/scratch23.org" "c:/Users/Ray/Desktop/practice.org" "c:/Users/Ray/Documents/practice.org")))
+ '(org-agenda-files
+   (quote
+    ("~/org/opportunities.org" "c:/Users/Ray/Desktop/scratch23.org" "c:/Users/Ray/Desktop/practice.org")))
  '(org-babel-load-languages (quote ((ruby . t) (emacs-lisp . t))))
- '(org-capture-templates (quote (("t" "Todo" entry (file+headline "~/org/gtdActionables.org" "Tasks") "* TODO %?
+ '(org-capture-templates
+   (quote
+    (("t" "Todo" entry
+      (file+headline "~/org/gtdActionables.org" "Tasks")
+      "* TODO %?
   %i
-  %a") ("j" "Journal" entry (file+datetree "~/org/jtdJournal.org") "* %?
+  %a")
+     ("j" "Journal" entry
+      (file+datetree "~/org/jtdJournal.org")
+      "* %?
 Entered on %U
   %i
-  %a") ("a" "Notes to go somewhere" plain (file "~/org/notes.org") ";  %T Note:" :empty-lines 1) ("o" "Opportunities" plain (file "~/org/opportunities.org") ";  %T Opportunities:" :empty-lines 1))))
- '(org-emphasis-alist (quote (("*" bold "<b>" "</b>" verbatim) ("/" italic "<i>" "</i>") ("_" underline "<span style=\"text-decoration:underline;\">" "</span>") ("=" org-code "<code>" "</code>" verbatim) ("~" org-verbatim "<code>" "</code>" verbatim) ("+" (:strike-through t) "<del>" "</del>"))))
+  %a")
+     ("a" "Notes to go somewhere" plain
+      (file "~/org/notes.org")
+      ";  %T Note:" :empty-lines 1)
+     ("o" "Opportunities" plain
+      (file "~/org/opportunities.org")
+      ";  %T Opportunities:" :empty-lines 1))))
+ '(org-emphasis-alist
+   (quote
+    (("*" bold "<b>" "</b>" verbatim)
+     ("/" italic "<i>" "</i>")
+     ("_" underline "<span style=\"text-decoration:underline;\">" "</span>")
+     ("=" org-code "<code>" "</code>" verbatim)
+     ("~" org-verbatim "<code>" "</code>" verbatim)
+     ("+"
+      (:strike-through t)
+      "<del>" "</del>"))))
  '(ourcomments-ido-ctrl-tab t)
+ '(package-selected-packages
+   (quote
+    (yasnippet w32-browser ox-pandoc json-mode icicles evil)))
  '(rebind-keys-mode t)
  '(recentf-mode t)
  '(sex-mode t)
@@ -71,7 +112,7 @@ Entered on %U
              "* %?\nEntered on %U\n  %i\n  %a")
         ("a" "Notes to go somewhere" plain (file "~/org/notes.org") ";  %T Note:" :empty-lines 1)
 	
-        ("o" "Opportunities" plain (file "~/org/opportunities.org")  "** %T OPPORTUNITY:%? \nDate: %T \nPosition:\nPayrate:\nEmployer name/address/phone/URL:\nPerson Contacted:\nHOW CONTACTED - Web, phone, mail, job fair, networking, etc.:\nResults:\n   " :empty-lines 1)))
+        ("o" "Opportunities" plain (file "~/org/opportunities.org")  "** %T OPPORTUNITY:%? \n   Date: %T \n   Position:\n   Payrate:\n   Employer name/address/phone/URL:\n   Person Contacted:\n   HOW CONTACTED - Web, phone, mail, job fair, networking, etc.:\n   Results:\n-\n   " :empty-lines 1)))
 
 (put 'dired-find-alternate-file 'disabled nil)
 (server-start)
@@ -88,3 +129,12 @@ Entered on %U
     (setq interpreter-mode-alist (append '(("ruby" . ruby-mode))
                                   interpreter-mode-alist))
 
+(autoload 'markdown-mode "markdown-mode"
+   "Major mode for editing Markdown files" t)
+(add-to-list 'auto-mode-alist '("\\.markdown\\'" . markdown-mode))
+(add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
+
+(autoload 'gfm-mode "markdown-mode"
+   "Major mode for editing GitHub Flavored Markdown files" t)
+(add-to-list 'auto-mode-alist '("README\\.md\\'" . gfm-mode))
+(server-start)
