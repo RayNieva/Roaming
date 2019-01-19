@@ -2,6 +2,7 @@
  ;; (add-to-list 'package-archives '("melpa" . "https://stable.melpa.org/packages/"))
     (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
   (package-initialize)
+;;
 ;;(add-to-list 'load-path "C:/Users/Ray/Downloads/Emacs/ntemacs24/lisp/icicles")
 (add-to-list 'load-path "~/.emacs.d/icicles")
 ;;(add-to-list 'load-path "~/.emacs.d/plugins/yasnippet")
@@ -20,6 +21,23 @@
 ;;(require 'icicles)
 (require 'powershell)
 ;;(require 'dired+)
+;;
+(add-to-list 'load-path "C:/Users/Ray/Downloads/Emacs/ntemacs24/lisp/icicles")
+;;(add-to-list 'load-path "~/.emacs.d/plugins/yasnippet")
+;;(add-to-list 'load-path "C:/Users/Ray/Appdata/Roaming/.emacs.d/plugins/yasnippet")
+(add-to-list 'load-path "~/.emacs.d/elpa/evil-20160214.1141")
+(add-to-list 'load-path "C:/Users/Ray/Appdata/Roaming/.emacs.d/markdown")
+(add-to-list 'load-path "C:/Users/Ray/Appdata/Roaming/.emacs.d/powershell")
+(add-to-list 'load-path "C:/Users/Ray/Appdata/Roaming/.emacs.d/VB")
+;;(add-to-list 'load-path "
+;;; (add-to-list 'load-path "~/bin/ruby-mode/ruby-mode"
+;;(require 'icicles)
+(require 'yasnippet)
+(require 'evil) 
+(require 'icicles)
+(require 'powershell)
+(require 'dired+)
+;;
 (require 'bookmark+)
 (yas-global-mode 1)
 (evil-mode 1)
@@ -40,7 +58,11 @@
  ;; If there is more than one, they won't work right.
  '(appmenu-mode t)
  '(auto-image-file-mode t)
+;;
  '(bmkp-last-as-first-bookmark-file "c:/Users/rayni/AppData/Roaming/.emacs.bmk")
+;;
+;; '(bmkp-last-as-first-bookmark-file "c:\\Users\\Ray\\AppData\\Roaming\\.emacs.bmk")
+;;
  '(column-number-mode t)
  '(cua-mode t nil (cua-base))
  '(emacsw32-max-frames t)
@@ -73,7 +95,11 @@ Entered on %U
       ";  %T Note:" :empty-lines 1)
      ("o" "Opportunities" plain
       (file "~/org/opportunities.org")
+;;
       ";  %T Opportunities:" :empty-lines 1))) t)
+;;
+;;      ";  %T Opportunities:" :empty-lines 1))))
+;;>>>>>>> efc2f918490a988c546517e5bba4bee2fcea7ef0
  '(org-emphasis-alist
    (quote
     (("*" bold "<b>" "</b>" verbatim)
