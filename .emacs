@@ -58,11 +58,7 @@
  ;; If there is more than one, they won't work right.
  '(appmenu-mode t)
  '(auto-image-file-mode t)
-;;
- '(bmkp-last-as-first-bookmark-file "c:/Users/rayni/AppData/Roaming/.emacs.bmk")
-;;
-;; '(bmkp-last-as-first-bookmark-file "c:\\Users\\Ray\\AppData\\Roaming\\.emacs.bmk")
-;;
+ '(bmkp-last-as-first-bookmark-file "~/.emacs.bmk")
  '(column-number-mode t)
  '(cua-mode t nil (cua-base))
  '(emacsw32-max-frames t)
@@ -95,11 +91,7 @@ Entered on %U
       ";  %T Note:" :empty-lines 1)
      ("o" "Opportunities" plain
       (file "~/org/opportunities.org")
-;;
-      ";  %T Opportunities:" :empty-lines 1))) t)
-;;
-;;      ";  %T Opportunities:" :empty-lines 1))))
-;;>>>>>>> efc2f918490a988c546517e5bba4bee2fcea7ef0
+      ";  %T Opportunities:" :empty-lines 1))))
  '(org-emphasis-alist
    (quote
     (("*" bold "<b>" "</b>" verbatim)
