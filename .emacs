@@ -58,7 +58,7 @@
  ;; If there is more than one, they won't work right.
  '(appmenu-mode t)
  '(auto-image-file-mode t)
- '(bmkp-last-as-first-bookmark-file "~/.emacs.bmk")
+ '(bmkp-last-as-first-bookmark-file "c:/Users/rayni/AppData/Roaming/.emacs.bmk")
  '(column-number-mode t)
  '(cua-mode t nil (cua-base))
  '(emacsw32-max-frames t)
