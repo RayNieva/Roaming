@@ -71,7 +71,7 @@
  '(nxhtml-load t)
  '(org-agenda-files
    (quote
-    ("~/org/opportunities.org" "c:/Users/Ray/Desktop/scratch23.org" "c:/Users/Ray/Desktop/practice.org")))
+    ("~/org/jtdJournal.org" "~/org/opportunities.org" "~/org/Organization.org" "~/org/gtdActionables.org")))
  '(org-babel-load-languages (quote ((ruby . t) (emacs-lisp . t))))
  '(org-capture-templates
    (quote

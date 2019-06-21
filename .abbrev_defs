@@ -1,7 +1,23 @@
 ;;-*-coding: utf-8;-*-
 (define-abbrev-table 'Buffer-menu-mode-abbrev-table '())
 
+(define-abbrev-table 'Custom-mode-abbrev-table '())
+
+(define-abbrev-table 'Info-edit-mode-abbrev-table '())
+
 (define-abbrev-table 'bibtex-mode-abbrev-table '())
+
+(define-abbrev-table 'bmkp-edit-bookmark-record-mode-abbrev-table '())
+
+(define-abbrev-table 'bmkp-edit-bookmark-records-mode-abbrev-table '())
+
+(define-abbrev-table 'bmkp-edit-tags-mode-abbrev-table '())
+
+(define-abbrev-table 'bookmark-bmenu-mode-abbrev-table '())
+
+(define-abbrev-table 'bookmark-edit-annotation-mode-abbrev-table '())
+
+(define-abbrev-table 'bookmark-show-annotation-mode-abbrev-table '())
 
 (define-abbrev-table 'calendar-mode-abbrev-table '())
 
@@ -9,15 +25,52 @@
 
 (define-abbrev-table 'completion-list-mode-abbrev-table '())
 
+(define-abbrev-table 'custom-new-theme-mode-abbrev-table '())
+
+(define-abbrev-table 'custom-theme-choose-mode-abbrev-table '())
+
+(define-abbrev-table 'debugger-mode-abbrev-table '())
+
+(define-abbrev-table 'diff-mode-abbrev-table '())
+
 (define-abbrev-table 'diredp-w32-drives-mode-abbrev-table '())
+
+(define-abbrev-table 'edit-abbrevs-mode-abbrev-table '())
+
+(define-abbrev-table 'elisp-byte-code-mode-abbrev-table '())
 
 (define-abbrev-table 'emacs-lisp-mode-abbrev-table '())
 
+(define-abbrev-table 'epa-info-mode-abbrev-table '())
+
+(define-abbrev-table 'epa-key-list-mode-abbrev-table '())
+
+(define-abbrev-table 'epa-key-mode-abbrev-table '())
+
+(define-abbrev-table 'evil-command-window-mode-abbrev-table '())
+
+(define-abbrev-table 'evil-list-view-mode-abbrev-table '())
+
 (define-abbrev-table 'fundamental-mode-abbrev-table '())
 
-(define-abbrev-table 'global-abbrev-table '())
+(define-abbrev-table 'global-abbrev-table
+  '(
+    ("fn" "Raymond" nil 2)
+    ("frb" "Friday Budgeting" nil 2)
+    ("fur" "Follow-up requested" nil 3)
+    ("ln" "Nieva" nil 1)
+    ("lrt" "List Reset" nil 5)
+    ("nm" "RayNieva" nil 1)
+    ("srt" "System Ritual" nil 7)
+   ))
+
+(define-abbrev-table 'gnus-group-mode-abbrev-table '())
 
 (define-abbrev-table 'help-mode-abbrev-table '())
+
+(define-abbrev-table 'image-dired-display-image-mode-abbrev-table '())
+
+(define-abbrev-table 'image-dired-thumbnail-mode-abbrev-table '())
 
 (define-abbrev-table 'lisp-mode-abbrev-table
   '(
@@ -104,6 +157,10 @@
     ("yonp" "yes-or-no-p" nil 0)
    ))
 
+(define-abbrev-table 'message-mode-abbrev-table '())
+
+(define-abbrev-table 'messages-buffer-mode-abbrev-table '())
+
 (define-abbrev-table 'occur-edit-mode-abbrev-table '())
 
 (define-abbrev-table 'occur-mode-abbrev-table '())
@@ -114,9 +171,13 @@
 
 (define-abbrev-table 'package-menu-mode-abbrev-table '())
 
+(define-abbrev-table 'powershell-mode-abbrev-table '())
+
 (define-abbrev-table 'process-menu-mode-abbrev-table '())
 
 (define-abbrev-table 'prog-mode-abbrev-table '())
+
+(define-abbrev-table 'select-tags-table-mode-abbrev-table '())
 
 (define-abbrev-table 'shell-mode-abbrev-table '())
 
@@ -124,9 +185,21 @@
 
 (define-abbrev-table 'special-mode-abbrev-table '())
 
+(define-abbrev-table 'speedbar-mode-abbrev-table '())
+
 (define-abbrev-table 'tabulated-list-mode-abbrev-table '())
 
 (define-abbrev-table 'text-mode-abbrev-table '())
+
+(define-abbrev-table 'vc-bzr-log-view-mode-abbrev-table '())
+
+(define-abbrev-table 'vc-git-log-edit-mode-abbrev-table '())
+
+(define-abbrev-table 'vc-git-log-view-mode-abbrev-table '())
+
+(define-abbrev-table 'vc-git-region-history-mode-abbrev-table '())
+
+(define-abbrev-table 'vc-svn-log-view-mode-abbrev-table '())
 
 (define-abbrev-table 'visual-basic-mode-abbrev-table
   '(
@@ -433,4 +506,6 @@
     ("write" "Write" nil 0)
     ("year" "Year" nil 0)
    ))
+
+(define-abbrev-table 'xref--xref-buffer-mode-abbrev-table '())
 
