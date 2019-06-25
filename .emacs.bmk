@@ -2,7 +2,19 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(#1=(#("Organization" 0 1
+(#1=(#("notes.org" 0 9
+(bmkp-full-record #1#))
+(filename . "~/org/notes.org")
+(buffer-name . "notes.org")
+(front-context-string . "aking a note  <2")
+(rear-context-string)
+(front-context-region-string)
+(rear-context-region-string)
+(visits . 2)
+(time 23824 22076 525791 0)
+(created 23824 21465 224085 0)
+(position . 15))
+#1=(#("Organization" 0 1
 (bmkp-full-record #1#)
 1 12
 (bmkp-full-record #1#))
@@ -12,8 +24,8 @@
 (rear-context-string)
 (front-context-region-string)
 (rear-context-region-string)
-(visits . 7)
-(time 23818 17332 243293 0)
+(visits . 9)
+(time 23822 23309 283856 0)
 (created 23789 10392 724430 0)
 (position . 13))
 #1=(#("Daily TO DO" 0 1
@@ -40,8 +52,8 @@
 (rear-context-string)
 (front-context-region-string)
 (rear-context-region-string)
-(visits . 46)
-(time 23818 2663 854989 0)
+(visits . 48)
+(time 23822 23355 450886 0)
 (created 23629 47756 506605 0)
 (position . 1))
 #1=(#("org" 0 1
@@ -226,8 +238,8 @@
 (rear-context-string)
 (front-context-region-string)
 (rear-context-region-string)
-(visits . 62)
-(time 23821 8368 842864 0)
+(visits . 65)
+(time 23824 13265 699496 0)
 (created 23621 12205 598002 0)
 (position . 14))
 #1=(#("Home" 0 1
@@ -254,16 +266,17 @@
 (bmkp-full-record #1#))
 (annotation)
 (tags)
-(filename . "~/org/opportunities.org")
-(buffer-name . "opportunities.org")
-(front-context-string . "** <2019-06-21 F")
-(rear-context-string . "s: Connected\n-\n\n")
-(front-context-region-string)
-(rear-context-region-string)
+(filename . "~/org/notes.org")
+(buffer-name . "notes.org")
+(front-context-string . " Sun 00:29> Note: https://www.quora.com/")
+(rear-context-string . "\n; A test of taking a note  <2019-06-23")
+(front-context-region-string . "n-Visual-Studio-and-Visual-Studio-Code\n\n")
+(rear-context-region-string . "; This is another test  <2019-06-24 Mon ")
 (visits . 0)
-(time . #2=(23821 29370 145971 0))
+(time . #2=(23824 22477 134983 0))
 (created . #2#)
-(position . 715266))
+(position . 40)
+(end-position . 149))
 #1=(#("Desktop" 0 1
 (bmkp-full-record #1#)
 1 7
@@ -308,8 +321,8 @@
 (rear-context-string)
 (front-context-region-string)
 (rear-context-region-string)
-(visits . 9)
-(time 23809 30147 303505 0)
+(visits . 12)
+(time 23824 22052 140958 0)
 (created 23611 58042 324149 0)
 (position . 1))
 )

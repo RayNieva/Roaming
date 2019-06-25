@@ -71,7 +71,7 @@
  '(nxhtml-load t)
  '(org-agenda-files
    (quote
-    ("~/org/jtdJournal.org" "~/org/opportunities.org" "~/org/Organization.org" "~/org/gtdActionables.org")))
+    ("~/org/jtdJournal.org" "~/org/opportunities.org" "~/org/Organization.org" "~/org/gtdActionables.org" "~/org/notes.org")))
  '(org-babel-load-languages (quote ((ruby . t) (emacs-lisp . t))))
  '(org-capture-templates
    (quote
