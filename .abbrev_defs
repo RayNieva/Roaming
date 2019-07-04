@@ -31,6 +31,10 @@
 
 (define-abbrev-table 'debugger-mode-abbrev-table '())
 
+(define-abbrev-table 'diary-fancy-display-mode-abbrev-table '())
+
+(define-abbrev-table 'diary-mode-abbrev-table '())
+
 (define-abbrev-table 'diff-mode-abbrev-table '())
 
 (define-abbrev-table 'diredp-w32-drives-mode-abbrev-table '())
@@ -55,18 +59,23 @@
 
 (define-abbrev-table 'global-abbrev-table
   '(
+    ("cta" "Submitted/Presented to (+ ) Jobs/Opportunities " nil 1)
+    ("ctc" "Made (+ ) Contacts" nil 2)
+    ("ctr" "Reviewed (+ ) Jobs/Opportunities" nil 2)
     ("fn" "Raymond" nil 2)
-    ("frb" "Friday Budgeting" nil 2)
+    ("frb" "Friday Budgeting" nil 3)
     ("fur" "Follow-up requested" nil 3)
     ("ln" "Nieva" nil 1)
-    ("lrt" "List Reset" nil 5)
+    ("lrt" "List Reset" nil 6)
     ("nm" "RayNieva" nil 1)
-    ("srt" "System Ritual" nil 7)
+    ("srt" "System Ritual" nil 8)
    ))
 
 (define-abbrev-table 'gnus-group-mode-abbrev-table '())
 
 (define-abbrev-table 'help-mode-abbrev-table '())
+
+(define-abbrev-table 'html-mode-abbrev-table '())
 
 (define-abbrev-table 'image-dired-display-image-mode-abbrev-table '())
 
@@ -161,9 +170,13 @@
 
 (define-abbrev-table 'messages-buffer-mode-abbrev-table '())
 
+(define-abbrev-table 'nxml-mode-abbrev-table '())
+
 (define-abbrev-table 'occur-edit-mode-abbrev-table '())
 
 (define-abbrev-table 'occur-mode-abbrev-table '())
+
+(define-abbrev-table 'org-export-stack-mode-abbrev-table '())
 
 (define-abbrev-table 'org-mode-abbrev-table '())
 
@@ -178,6 +191,8 @@
 (define-abbrev-table 'prog-mode-abbrev-table '())
 
 (define-abbrev-table 'select-tags-table-mode-abbrev-table '())
+
+(define-abbrev-table 'sgml-mode-abbrev-table '())
 
 (define-abbrev-table 'shell-mode-abbrev-table '())
 
