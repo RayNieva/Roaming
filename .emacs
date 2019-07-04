@@ -102,6 +102,7 @@ Entered on %U
      ("+"
       (:strike-through t)
       "<del>" "</del>"))))
+ '(org-link-search-must-match-exact-headline nil)
  '(ourcomments-ido-ctrl-tab t)
  '(package-selected-packages
    (quote
