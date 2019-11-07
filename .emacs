@@ -115,6 +115,9 @@ Entered on %U
  '(w32-meta-style (quote w32-lr))
  '(w32shell-shell (quote cmd)))
 
+;; turn on abbrev mode globally
+(setq-default abbrev-mode t)
+
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
