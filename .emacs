@@ -106,7 +106,7 @@ Entered on %U
  '(ourcomments-ido-ctrl-tab t)
  '(package-selected-packages
    (quote
-    (yasnippet w32-browser ox-pandoc json-mode icicles evil)))
+    (evil-org yasnippet w32-browser ox-pandoc json-mode icicles evil)))
  '(rebind-keys-mode t)
  '(recentf-mode t)
  '(sex-mode t)
